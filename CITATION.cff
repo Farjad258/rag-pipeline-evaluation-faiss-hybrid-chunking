@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "Evaluating Retrieval-Augmented Generation (RAG) Pipelines Using FAISS and Hybrid Retrieval with Fixed vs. Sentence-Based Chunking"
+authors:
+  - family-names: Danish
+    given-names: Farjad
+version: 1.0.0
+date-released: 2026-01-08
+url: https://github.com/Farjad258/rag-pipeline-evaluation-faiss-hybrid-chunking
