@@ -52,5 +52,52 @@ The notebook implements the following pipeline:
 
 ### 1) Install dependencies
 ```bash
-pip install -r requirements.txt
+**pip install -r requirements.txt**
+If faiss-cpu fails on Windows, install it via conda:
+**conda install -c conda-forge faiss-cpu**
+
+### 2) Run the Notebook
+Open Jupyter and execute the notebook end-to-end:
+**jupyter notebook notebooks/RAG_Project.ipynb**
+
+### 3) Expected outputs
+
+After a successful run, the following artifacts will be generated under the data/ directory:
+
+**data/chunks/** — fixed-length and sentence-based text chunks
+**data/embeddings.pkl** — document embeddings used for retrieval
+**data/rag_evaluation_results.csv** — per-query evaluation metrics
+**data/rag_experiment_results.csv** — aggregated experimental results
+
+These outputs are used to generate the tables and figures reported in the manuscript.
+
+
+### Reproducibility Notes
+
+The dataset is loaded automatically using **sklearn.datasets.fetch_20newsgroups**.
+Pretrained models for SentenceTransformers and GPT-Neo are downloaded automatically on first run.
+Minor numerical variations may occur across environments due to model initialization and library versions
+
+
+### Citation
+
+If you use this code in academic work, please cite it.
+GitHub also provides a “Cite this repository” option via the included CITATION.cff file.
+
+@article{danish2026rag,
+  title={Evaluating Retrieval-Augmented Generation (RAG) Pipelines Using FAISS and Hybrid Retrieval with Fixed vs. Sentence-Based Chunking},
+  author={Danish, Farjad},
+  year={2026},
+  note={Code available on GitHub}
+}
+
+### Author
+
+Farjad Danish
+Applied AI Researcher
+📧 farjadkhan258@gmail.com
+
+
+
+
 
