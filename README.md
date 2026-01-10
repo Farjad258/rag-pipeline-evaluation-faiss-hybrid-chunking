@@ -106,6 +106,10 @@ Applied AI Researcher
 ## License
 This project is released under the MIT License. See the `LICENSE` file for details.
 
+## Paper & Reproducibility
+- Code and results are released as **v1.0.0** for reproducibility (see GitHub Releases).
+
+
 
 
 
