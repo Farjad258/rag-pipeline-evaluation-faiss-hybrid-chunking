@@ -99,7 +99,7 @@ GitHub also provides a “Cite this repository” option via the included CITATI
 
 ## Author
 
-**Farjad Danish**
+**Farjad Danish**  
 Applied AI Researcher  
 📧 farjadkhan258@gmail.com
 
