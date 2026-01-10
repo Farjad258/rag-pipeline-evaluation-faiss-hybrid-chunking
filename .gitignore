@@ -1,8 +1,33 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# Environments
 .env
 .venv
 venv/
-.ipynb_checkpoints/
+
+# OS files
 .DS_Store
+
+# Jupyter runtime
+.ipynb_checkpoints/
+
+# Generated research artifacts / local outputs
+data/chunks/
+data/*.pkl
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.npy
+data/*.npz
+
+# Logs
+*.log
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+
