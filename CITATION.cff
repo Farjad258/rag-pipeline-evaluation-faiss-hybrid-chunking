@@ -6,3 +6,11 @@ authors:
 version: 1.0.0
 date-released: 2026-01-08
 url: https://github.com/Farjad258/rag-pipeline-evaluation-faiss-hybrid-chunking
+license: MIT
+repository-code: https://github.com/Farjad258/rag-pipeline-evaluation-faiss-hybrid-chunking
+
+abstract: >
+  This repository provides a reproducible experimental framework for evaluating
+  Retrieval-Augmented Generation (RAG) pipelines, comparing FAISS and hybrid
+  retrieval strategies with fixed and sentence-based chunking using the
+  20 Newsgroups dataset.
