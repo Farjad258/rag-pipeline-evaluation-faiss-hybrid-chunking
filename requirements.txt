@@ -1,10 +1,9 @@
-scikit-learn
 numpy
 pandas
+scikit-learn
 matplotlib
-seaborn
-sentence-transformers
 faiss-cpu
 rank-bm25
+sentence-transformers
 transformers
 torch
