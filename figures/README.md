@@ -25,7 +25,7 @@ Interaction between retrieval strategy and chunking method for hallucination rat
 
 ## Usage in the Paper
 
-- The IEEE Access manuscript includes **Fig. 1 (Token F1 interaction)** and **Fig. 2 (Hallucination rate interaction)**, as these most directly support the core experimental findings.
+- The IEEE Access manuscript includes **Fig. 2 (Token F1 interaction)** and **Fig. 2 (Hallucination rate interaction)**, as these most directly support the core experimental findings.
 - The remaining figures are provided here to support extended analysis and reproducibility, but are not required for the main narrative of the paper.
 
 
