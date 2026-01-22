@@ -1,8 +1,9 @@
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 
-# Environments
+# Virtual environments
 .env
 .venv
 venv/
@@ -13,21 +14,17 @@ venv/
 # Jupyter runtime
 .ipynb_checkpoints/
 
-# Generated research artifacts / local outputs
-data/chunks/
-data/*.pkl
-data/*.csv
-data/*.json
-data/*.parquet
-data/*.npy
-data/*.npz
+# Generated experiment outputs (reproducible, not versioned)
+outputs/
+outputs/*.csv
+outputs/*.png
+outputs/*.json
 
 # Logs
 *.log
 
-# Tooling
+# Tooling / IDE
 .pytest_cache/
 .mypy_cache/
 .vscode/
 .idea/
-
