@@ -28,12 +28,13 @@ The notebook:
 ## Command executed
 The notebook runs the following command:
 
-python rag_ieee_eval.py
---run_grid
---docs_limit 1000
---eval_per_category 3
---eval_max_total 60
---out_dir outputs
+```bash
+python rag_ieee_eval.py \
+  --run_grid \
+  --docs_limit 1000 \
+  --eval_per_category 3 \
+  --eval_max_total 60 \
+  --out_dir outputs
 
 
 ## Outputs
