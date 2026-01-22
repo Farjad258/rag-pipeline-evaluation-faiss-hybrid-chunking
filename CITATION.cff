@@ -1,16 +1,37 @@
 cff-version: 1.2.0
-title: "Evaluating Retrieval-Augmented Generation (RAG) Pipelines Using FAISS and Hybrid Retrieval with Fixed vs. Sentence-Based Chunking"
-authors:
-  - family-names: Danish
+title: "Evaluating Retrieval-Augmented Generation Pipelines with FAISS and Hybrid Retrieval on the 20 Newsgroups Dataset"
+
+Authors:
+    family-names: Danish
     given-names: Farjad
+    affiliation: "Independent Researcher (Applied Artificial Intelligence), United Kingdom"
+
 version: 1.0.0
 date-released: 2026-01-08
-url: https://github.com/Farjad258/rag-pipeline-evaluation-faiss-hybrid-chunking
 license: MIT
-repository-code: https://github.com/Farjad258/rag-pipeline-evaluation-faiss-hybrid-chunking
+
+url: "https://github.com/Farjad258/rag-pipeline-evaluation-faiss-hybrid-chunking"
+repository-code: "https://github.com/Farjad258/rag-pipeline-evaluation-faiss-hybrid-chunking"
+
+keywords:
+  - retrieval-augmented generation
+  - RAG
+  - information retrieval
+  - hybrid retrieval
+  - BM25
+  - FAISS
+  - reciprocal rank fusion
+  - chunking
+  - sentence-transformers
+  - transformers
+  - 20 newsgroups
+  - Python
 
 abstract: >
   This repository provides a reproducible experimental framework for evaluating
-  Retrieval-Augmented Generation (RAG) pipelines, comparing FAISS and hybrid
-  retrieval strategies with fixed and sentence-based chunking using the
-  20 Newsgroups dataset.
+  Retrieval-Augmented Generation (RAG) pipelines on the 20 Newsgroups dataset.
+  It compares dense (FAISS), lexical (BM25), and hybrid retrieval using Reciprocal
+  Rank Fusion (RRF), under fixed-word and sentence-based chunking. The code
+  outputs per-query results and aggregated summary metrics (including bootstrap
+  confidence intervals) to support controlled comparative analysis.
+
