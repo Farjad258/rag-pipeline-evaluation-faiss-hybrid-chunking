@@ -35,7 +35,7 @@ python rag_ieee_eval.py \
   --eval_per_category 3 \
   --eval_max_total 60 \
   --out_dir outputs
-
+```
 
 ## Outputs
 The notebook produces:
